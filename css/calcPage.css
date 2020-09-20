@@ -1,0 +1,80 @@
+html {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+  }
+  body {
+    background: url(https://i.pinimg.com/originals/63/11/ed/6311edb6f3a600c9f4a23c35473788a4.jpg);
+    width: 28%;
+  }
+  .container {
+    align-items: center;
+    margin: auto;
+  }
+  h1 {
+    background: white;
+    border: solid black;
+    text-align: center;
+  }
+  .btnDiv {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 2em;
+    transition-duration: 1.5s;
+  }
+  button:hover {
+    background: pink;
+  }
+  .multip {
+  }
+  #number1 {
+    padding: 5px 8px 5px;
+    background-color: grey;
+  }
+  #number2 {
+    padding: 5px 8px 5px;
+    background-color: grey;
+  }
+  form {
+    background: gold;
+    border: gold;
+    border-radius: 6px;
+  }
+  .choose {
+   font-size: 1.5em;
+   font-weight: bold;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .number {
+    border: solid cornsilk;
+  }
+  input {
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  select {
+    background: yellow;
+    font-size:1.5em;
+    width: 15%;
+    text-align: center;
+  }
+  .multip {
+    margin: 0;
+    background: lightyellow;
+    font-size: 3em;
+    text-align: center;
+    padding: 15px;
+    border: solid 6px grey;
+  }

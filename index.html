@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/calcPage.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Ez egy egyszerű szorzó felület</h1>
+        <br>
+        <br>
+        <div id="number1" class="number">
+            <input type="number" value="0">
+        </div>
+        <div id="number2" class="number">
+            <input type="number" value="0">
+        </div>
+        <br>
+        <br>
+        <form>
+            <div class="choose">
+                <label for="operators">Choose an operator:</label>
+            </div>
+            <div class="choose">
+                <select name="operators" id="operators" autofocus>
+                    <option value="addition">+</option>
+                    <option value="subtraction">-</option>
+                    <option value="division">/</option>
+                    <option value="multiplication">*</option>
+                </select>
+            </div>
+        </form>
+        <br>
+        <br>
+        <div class="btnDiv">
+            <button type="button" onclick="multiplicationResult()"><strong>Calculate</strong></button>
+        </div>
+        <br>
+        <br>
+        <div id="result" class="multip">
+            <span>Nem történt művelet</span>
+        </div>
+    </div>
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
